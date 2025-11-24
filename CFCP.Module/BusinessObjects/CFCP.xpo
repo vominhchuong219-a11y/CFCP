@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="dfc7f6c2-a4f8-4bad-91da-247e22184d17" namespace="CFCP.Module.BusinessObjects.CFCP" dataBaseShemaInfo="H4sIAAAAAAAEAN1YbW/bNhD+XqD/wcjn0iIpvoiF4qK1uy7oGgRNOuzbcCRPtjBbCizJSf/9zi9x4yTdOsSzgX4RzOeOIB/ew7uj8ze3s2lvgfOmrKvTE9HnJ28GL1/k76DBy7aewxjPqqLukVfVvL5t4unJpG2vXyfJzc1N/ybt1/NxIjkXyR+ffrsME5zByda5/HdnVlZNC1XAE1q118uvwE+xWS65Gt8h94A76BxmOLiYlNidT+A6T76BW7/31RIbtPMO82Qz2BpHZbMEvlxHaHFQwLQhp11w6/uhK+NZHAAgOisMcwJTplyhmCsKw3gsAkQvpFcqTzbO28nDetrNqmaHwndhMiw5rI2D8+Hwz7NRntyDdlz/ieB/JXmfKDqILoBkOngkokYyx2NgVgttEE1hdPqIKE1PnsN1AtWixOoohHlwxmVcMiG0ZMoCRTZ1galUW4NRWhHFvglf1ofnaT1aE4NgRmrOlPLAnOH0cQZUMCjoIPYe2DF8PUJEYwaZAcdUyBRT3HDmtU1Z8AFClvLCxeKHmT6FbjLOD6cq0vewq8bDQ+WqKCQa7lnmoydFO8s8WM204xRp7o30ca+56te6xerwcZapdjHNAhNpoGDrTBNjDUya4Gy0tghy74oeUZpqJzWUh6frKQ9nPKqNrEXhGCxVrosQNIXUFybsm+6ny6vDEwVFkbV0YWGZrpTklhGErEidSkO0gvPHtfb/vL+rVmM4KQ9ye0WUGoISTGhNqrZZxjzFl3GHyDmkHszjAvysTuOY1dcrF1IJnkXNSdSq0MxLAOqrhE8VeJsp2HtVOlJrJZUW1juSNJVbpjJvGGQQWQAQhtOYkJ+h03BRK01dJMPIqVcWAVnGnSbGgVtrqCBx/3N0GqZQmku6nNHyyBTSJ1OSWixTRKW0p2Ya9x/RtjxGtQWtMo4xMis5bvrHAgRDyZWNTnr+RF56TlbejL+55MtXKcaLeR1WYC9Zw7+vn7CDES7e317PsWn6I2ihv5C6L171NubT5aiv+/xVb9hN226OpxV27Rymr3oXnZ+W4SN+var/wurUZ1kUViuKKkflKAHdLbFabziFpsFmGYDP3fZ087eRtoZFebvZ1xq67Iod6DPO6gU+dFyjD32H9BIffKkCJegxUsu2Gq+P5qk95HQy1zgneRx3b9/ZRv4BK5yTvIb1bEZdVLPR6CN4x3mETTmmn7+UJIUHM3Ztq2kjnGKLb5umDiW0FLK7OU8YVhPOu+l0KbN3OIFFWc9JRQWQPuiCPbS8fJEnD/4cGfwNn7oe00URAAA=" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" createdInVersion="25.1.5.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="25.1.5.0" name="CFCP" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="3b497b7d-f98c-4c3d-b616-9d4dd977b06c">
+      <xpObject Id="aaee9716-91e3-49f4-9ff6-0dfcadb12b44" name="PhieuNhap" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="PhieuNhap" designerFileName="PhieuNhap.Designer" className="PhieuNhap" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="PhieuNhap">
+        <fields>
+          <generalXpObjectHasFields Id="3258b557-c0c5-4bd8-addc-770e09069131">
+            <field Id="e9ad9ca2-5cbe-4962-90dc-75156ee6f653" name="NCC_ID" virtualColumnType="NhaCungCap" logicalType="NhaCungCap" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="6015f825-98e6-4b3e-80a6-492d8f6430da">
+            <field Id="0c969802-1152-47a4-939c-43576ed271d1" name="Nhanvien_ID" virtualColumnType="NhaCungCap" logicalType="NhaCungCap" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="9a84664d-82ee-4ea7-9cd7-9c262c8fcece">
+            <field Id="7be76dc1-6250-44ba-960a-996a4c6e10c9" name="So" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="eed693b0-1dba-425b-b708-0a528e5df0e9">
+            <field Id="0d8a86a9-4c84-4060-b573-cbcac830f9df" name="Ngay" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;,&quot;dd/MM/yyyy HH:mm&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;,&quot;{0:dd/MM/yyyy HH:mm}&quot;)&#xD;&#xA;" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="77a553c1-bf46-43b7-b018-e86944ceddd3">
+      <xpObject Id="ad12e60b-8bdb-4797-ba75-590a4c0b62bd" name="NhaCungCap" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="NhaCungCap" designerFileName="NhaCungCap.Designer" className="NhaCungCap" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="NhaCungCap">
+        <fields>
+          <generalXpObjectHasFields Id="a8d75df7-d778-4e01-8445-d77f310957ce">
+            <field Id="2359d38c-13c9-4585-8b5a-26c97d77fc29" name="Hoten" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b38ede30-4480-4d3a-95ee-c868e889a1cd">
+            <field Id="b90d80d4-4c84-41f9-a6a9-5fcc52bdbf6c" name="Dienthoai" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="bf4bf475-23de-4f7e-83ed-cd3d0ab16dd4">
+            <field Id="a4235773-adc1-4207-a42e-f3943cd71004" name="MST" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <aggrTarget>
+          <aggregation Id="ce1aa889-3a07-4588-bd71-dceb0bcd104f" sourceCollectionName="PhieuNhaps" name="PhieuNhapReferencesNhaCungCap" targetFieldName="NCC_ID">
+            <xpObjectMoniker Id="aaee9716-91e3-49f4-9ff6-0dfcadb12b44" />
+          </aggregation>
+          <aggregation Id="80a144d6-56c6-448e-a2fa-e9f69fffc514" sourceCollectionName="PhieuChis" name="PhieuChiReferencesNhaCungCap" targetFieldName="NCC_ID">
+            <xpObjectMoniker Id="1d25ac41-1559-4788-bc52-09ee00a3ba63" />
+          </aggregation>
+        </aggrTarget>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="2d1676d3-8b4a-4705-9854-3ad0cd3865cc">
+            <collectionField Id="692b8da5-470e-4413-8345-fa9c9ba4ffd8" name="PhieuNhaps" />
+          </xpObjectHasCollectionFields>
+          <xpObjectHasCollectionFields Id="e911b640-18ce-4306-97fd-f004cd73c3fa">
+            <collectionField Id="8b9aba2e-1630-484b-8df7-e75b31090523" name="PhieuChis" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="7ac631c5-4b1d-402e-89b4-a45636ff8469">
+      <xpObject Id="1d25ac41-1559-4788-bc52-09ee00a3ba63" name="PhieuChi" baseClass="DevExpress.Persistent.BaseImpl.BaseObject" userFileName="PhieuChi" designerFileName="PhieuChi.Designer" className="PhieuChi" virtualBaseClass="DevExpress.Persistent.BaseImpl.BaseObject" virtualName="PhieuChi">
+        <fields>
+          <generalXpObjectHasFields Id="71598910-d96c-428c-bf22-c2df380c92b7">
+            <field Id="b49c32ab-d504-44f5-b2aa-0d1b34ab784a" name="Nhanvien_ID" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e0d2ef60-e8e1-4b5a-8218-1bc46d81e025">
+            <field Id="24517b91-4c6e-48b6-a8ad-caa16048b8b6" name="NCC_ID" virtualColumnType="NhaCungCap" logicalType="NhaCungCap" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="3b863e1e-4340-4104-ace1-77b4529f79bc">
+            <field Id="9d545ad9-ed03-41ce-8095-48c07764790b" name="So" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="dad9e9d3-ab05-441f-9ea3-ebfec8ac7a8d">
+            <field Id="6f450252-d70d-4e0d-8421-66fd445be9ae" name="Ngay" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" customAttributes="DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;,&quot;dd/MM/yyyy HH:mm&quot;),&#xD;&#xA;DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;,&quot;{0:dd/MM/yyyy HH:mm}&quot;)&#xD;&#xA;" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="aa71846d-3c63-4ea6-a673-bccf4027586e">
+            <field Id="a5480edd-720e-44ba-9fa1-e2047d92b063" name="Sotien" columnType="Decimal" virtualColumnType="Decimal" delayedUpdateModifiedOnly="false" customAttributes="[DevExpress.ExpressApp.Model.ModelDefault(&quot;DisplayFormat&quot;, &quot;### ### ### ###&quot;)]&#xD;&#xA;[DevExpress.ExpressApp.Model.ModelDefault(&quot;EditMask&quot;, &quot;### ### ### ###&quot;)]&#xD;&#xA;" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>
